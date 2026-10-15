@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 0px 50px black;
+}
+#left{
+    color: black;
+    font-size: 20px;
+    margin-right: 350px;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+
+}
+
+.anch{
+    color: #838383;
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    
+    text-decoration: none;
+    margin-right: 50px;
+
+}
+
+.anch:hover{
+    color: #FF545A;
+}
+
+/* #city{
+    height: 100%;
+    width: 100%;
+    object-fit:cover ;
+} */
+
+#first{
+    height: 100vh;
+    background-image: url(./back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+
+#head1{
+    color: white;
+    font-size: 50px;
+      color: white;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 48px;
+   font-family: Poppins, sans-serif;
+   font-weight: 700;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-top: 250px;
+
+}
+
+#head2{
+       color: white;
+    font-size: 50px;
+      color: white;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   font-family: Poppins, sans-serif;
+   font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#head3{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   margin-bottom: 0px;
+
+}
+
+.red{
+    height: 70px;
+    width: 400px;
+    border:none;
+    font-size: 17px;
+    font-family: Poppins, sans-serif;
+    padding-left: 20px;
+}
+
+.red::placeholder{
+    padding-left: 10px;
+    font-family: Poppins, sans-serif;
+}
+
+#button1{
+    height: 70px;
+    width: 150px;
+    margin-left: 20px;
+    background-color: #FF545A;
+    border-color: #FF545A;
+    color: white;
+}
+
+#button1:hover{
+    background-color:#F43032;
+    cursor: pointer;
+}
+
+#blocks4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 180px;
+}
+
+
+#block1{
+    height: 170px;
+    width: 205px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    transition-property: all;
+    transition-duration: 0.70s;
+}
+#block1:hover{
+    background-color: #F43032;
+    color: white;
+    cursor: pointer;
+}
+
+#block2{
+    height: 170px;
+    width: 205px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    transition-property: all;
+    transition-duration: 0.70s;
+}
+#block2:hover{
+    background-color: #F43032;
+    color: white;
+    cursor: pointer;
+}
+
+#block3{
+    height: 170px;
+    width: 205px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    transition-property: all;
+    transition-duration: 0.70s;
+}
+#block3:hover{
+    background-color: #F43032;
+    color: white;
+    cursor: pointer;
+}
+#block4{
+    height: 170px;
+    width: 205px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    transition-property: all;
+    transition-duration: 0.70s;
+}
+#block4:hover{
+    background-color: #F43032;
+    color: white;
+    cursor: pointer;
+}
+
+#block5{
+    height: 170px;
+    width: 205px;
+    background-color: white;
+    margin-right: 30px;
+    box-shadow: 0px 0px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    transition-property: all;
+    transition-duration: 0.70s;
+}
+#block5:hover{
+    background-color: #F43032;
+    color: white;
+    cursor: pointer;
+}
+
+#nextblock{
+    height: 100px;
+}
+
+#another{
+    height: 200px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#head5{
+    color: #505866;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+}
+
+#para1{
+    color: #505866;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#blocks3{
+    background-color: white;
+    height: 700px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: center;
+}
+
+.pad{
+    height: 430px;
+    width: 380px;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    transition-property: all;
+    transition-duration: 0.30s;
+    transition-timing-function: ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #505866;
+
+}
+
+
+
+.pad:hover{
+    background-color: #FF545A;
+    box-shadow: 0px 0px 10px gray;
+    color: white;
+    /* height: 440px;
+    width: 390px; */
+    /* padding: 220px 195px;
+    margin: 30px 30px; */
+
+}
+
+
+.h{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+.paara{
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.button3{
+    padding: 12px 40px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    
+}
+
+.button3:hover{
+    color: #FF545A;
+}
+
+#anotherblock{
+    background-color: #F8FAFB;
+    height: 1500px;
+    text-align: center;
+}
+#ee{
+    margin-top: 30px;
+}
+#papa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#boy1{
+    background-color: yellow;
+    background-image: url(./e1.jpg);
+    height: 250px;
+    width: 320px;
+    margin-top: 90px;
+    box-shadow: 0px 0px 10px gray;
+    transition-property: all;
+    transition-duration: 0.35s;
+
+}
+#boy1:hover{
+    box-shadow: 0px 0px 30px black;
+    cursor: pointer;
+}
+
+#boy2{
+    background-color: yellow;
+    background-image: url(./e2.jpg);
+    height: 250px;
+    width: 320px;
+    margin-top: 90px;
+    transition-property: all;
+    transition-duration: 0.35s;
+}
+#boy2:hover{
+    box-shadow: 0px 0px 30px black;
+    cursor: pointer;
+}
+#boy3{
+    background-color: yellow;
+    background-image: url(./e3.jpg);
+    height: 250px;
+    width: 320px;
+    margin-top: 90px;
+    transition-property: all;
+    transition-duration: 0.35s;
+}
+#boy3:hover{
+    box-shadow: 0px 0px 30px black;
+    cursor: pointer;
+}
+#mummy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#girl1{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    height: 300px;
+    width: 320px;
+    transition-property: all;
+    transition-duration: 0.35s;
+    
+}
+#girl1:hover{
+    box-shadow: 0px 0px 30px grey;
+}
+#girl2{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    height: 300px;
+    width: 320px;
+    transition-property: all;
+    transition-duration: 0.35s;
+    
+}
+#girl2:hover{
+    box-shadow: 0px 0px 30px grey;
+
+}
+#girl3{
+    background-color: white;
+    box-shadow: 0px 0px 5px grey;
+    height: 300px;
+    width: 320px;
+    transition-property: all;
+    transition-duration: 0.35s;
+    
+}
+#girl3:hover{
+    box-shadow: 0px 0px 30px grey;
+}
+
+
+.profile1{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.ali{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:top;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 12px;
+    color: RGB(118, 127, 134);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+hr{
+    width: 90%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.pp{
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 15px;
+    font-size: 18px;
+    color: RGB(118, 127, 134);
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+
+}
+
+.oo{
+    padding: 4px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+#yellow{
+    background-color: orange;
+}
+
+.ll{
+    font-size: 13px;
+}
+
+
+.open{
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.uu{
+    color: green;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+}
+
+#tt{
+    color: red;
+}
+#rr{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: RGB(118, 127, 134);
+    font-family: Poppins, sans-serif;
+}
+
+#ee{
+    font-size: 20px;
+    font-weight: 400;
+    color: RGB(118, 127, 134);
+    font-family: Poppins, sans-serif;
+}
